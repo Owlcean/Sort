@@ -15,7 +15,7 @@ namespace SortCSharp
             //QuickSort.ResetRecursionTime();
             //QuickSort.TailCallSort(input, 0, input.Count-1);、
             //Console.WriteLine("recur time:" + QuickSort.GetRecursionTime());
-            MergeSort.NormalSort(input, 0, input.Count - 1);
+            MergeSort.Sort(input, 0, input.Count - 1);
             input.ForEach((element) => {
                 Console.Write(element + " ");
             });
